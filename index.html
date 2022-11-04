@@ -27,7 +27,7 @@
         # If you need to expose your application to Internet, use napptive-ingress trait
         # https://docs.napptive.com/oam_definitions/traits/napptive-ingress.html
         ports:
-        - port: 8080
+        - port: 80
           expose: true
         env:
           # GitHub repo url
@@ -54,7 +54,7 @@
       traits: # Trait section
         - type: napptive-ingress
           properties:
-            port: 8080
+            port: 80
             path: /
     </pre>
 </body>
