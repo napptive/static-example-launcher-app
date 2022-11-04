@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFF;
+    background-color: #424242;
+    font-family: 'Spinnaker', sans-serif !important;
+    width: 75%;
+    margin: 20px auto auto;
+}
+.company-title{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Adca' ,sans-serif;
+}
+.logo{
+    vertical-align:middle;
+    margin-right: 10px;
+}
+.tittle {
+    font-size: 1.5em;
+}
+.text {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+pre {
+    border: 0;
+    font-family: monospace, monospace;
+    font-size: 0.9em;
+    padding: 0.75rem;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    overflow-x: auto;
+    background-color: #181818;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-overflow-scrolling: touch;
+    color: #1FD7E0 !important;
+    overflow-wrap: break-word;
+
+}
